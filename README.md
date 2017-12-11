@@ -1,6 +1,23 @@
 # rstudio_git_github_hpc
 
 ## workshop outline
+
+
+### main aim
+
+To enable researchers to run their work on the cluster more easily and efficiently
+
+### objectives
+
+- understand portability issues, how they affect working with the cluster and best practice in project setup.
+- understand the basics of version control, remote repositories and how they can be used for syncing on the cluster.
+- appreciate that often what makes life easier on the cluster makes life easier locally too. 
+- practice using the combination of tools that make the workflow most efficient.
+    - git 
+    - github 
+    - rstudio  
+    - sharc 
+
 ***
 
 ### RSTUDIO -> local
