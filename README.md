@@ -31,10 +31,10 @@
     - brief overview of requesting resources
     - workflow basics
     - cluster etiquette
-- model submission script
+- R script submission bash script
     - load R and any external libraries
     - install first package interactively
-    - ensure your scripts both `install.packages` and load (`library`) dependencies
+    - if not using packrat, ensure your scripts include both `install.packages` and load (`library`) dependencies
 - passing arguments to R scripts
 - qsub
 
