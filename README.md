@@ -12,13 +12,27 @@
 - naming and filesystem conventions
 - managing dependencies (packrat)
 
+### Git
+- clone
+- pull
+- push
+
 ###  Sharc
 
 - file system
 - data storage
-- unix
+    - ideally within the project (data are also version controlled) but not always possible
+    - on sharc
+    - on smb
+    - on google drive
+- unix for cluster basics
+- the scheduler 
+    - set up overview
+    - brief overview of requesting resources
+    - workflow basics
+    - cluster etiquette
 - model submission script
-    - load R
+    - load R and any external libraries
     - install first package interactively
     - ensure your scripts both `install.packages` and load (`library`) dependencies
 - passing arguments to R scripts
@@ -27,13 +41,15 @@
 
 ## What's the best way to keep your work on the cluster in sync?
 
-### Git
-- clone
-- pull
-- push
-
-
-
 ### Github
+- explain linking concepts
+- workflow charts
+
+### Git on the cluster
+- same principles
+- authentication issues
+
 
 ### General pitfalls of synching through github
+- merge conflicts
+    - branching (eg working with a master and devel branch)
